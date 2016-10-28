@@ -34,10 +34,10 @@ Head over to the [push-notifications](https://github.com/pusher/libPusher/tree/p
 
 ## Installation
 
-Install using CocoaPods is recommended.
+Installation using CocoaPods is recommended. While the push notifications feature is still in beta you'll need to use the code on the `push-notifications` branch, like so:
 
 ```ruby
-pod 'libPusher', '~> 1.6.2'
+pod 'libPusher', git: 'https://github.com/pusher/libPusher.git', branch: 'push-notifications'
 ```
 
 Import Pusher into the class that wants to make use of the library.
@@ -49,7 +49,7 @@ Import Pusher into the class that wants to make use of the library.
 If you want to use the ReactiveExtensions version of libPusher, add the following line to your Podfile instead.
 
 ```ruby
-pod 'libPusher/ReactiveExtensions', '~> 1.6.2'
+pod 'libPusher/ReactiveExtensions', '~> 1.6.1'
 ```
 
 This will also load the core libPusher library and ReactiveCocoa as a dependency.
