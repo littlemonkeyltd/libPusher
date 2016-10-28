@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = 'An Objective-C client for the Pusher service'
   s.homepage        = 'https://github.com/pusher/libPusher'
   s.author          = 'Luke Redpath'
-  s.source          = { git: 'https://github.com/pusher/libPusher.git', tag: 'v1.6.2' }
+  s.source          = { git: 'https://github.com/littlemonkeyltd/libPusher.git', tag: 'v1.6.2' }
   s.requires_arc    = true
   s.header_dir      = 'Pusher'
   s.default_subspec = 'Core'
